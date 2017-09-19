@@ -1,6 +1,11 @@
 node-teamspeak
 ==============
 
+### Disclaimer
+
+The origin package lives under https://github.com/gwTumm/node-teamspeak, im just creating this to achive an specific goal to be used on https://github.com/ethkat/tibia-ts3-teamspeakbot, if it works great a PR to upstram will be made and this npm package will be removed, please use https://github.com/gwTumm/node-teamspeak instead of this, since this will change a lot.
+
+### About
 This is a tiny CommonJS-module which allows you to connect
 to any TeamSpeak (R)-3-Server which has the ServerQuery-API
 enabled. Using the ServerQuery-API, you can do everything
@@ -16,13 +21,13 @@ How to install
 Node:
 
 	npm install node-teamspeak
-	
+
 Example Usage
 ----------------
 
 After registering a ServerQuery-account using your TeamSpeak-Client, you
 can login using node-teamspeak (Alternatively, you can login as the root
-account "ServerAdmin" which is created during the installation of the 
+account "ServerAdmin" which is created during the installation of the
 server). The following code prints out a JSON-array containing all
  clients that are currently connected to the first virtual server:
 
@@ -55,4 +60,4 @@ you can send a normal command "servernotifyregister" (consider specification).
 Any event sent by the server that starts with "notify" is then fired as
 an event (e. g. as soon as a "notifyclientmove"-notification is sent by the server,
 the TeamSpeakClient-instance fires the "clientmove"-event with only
-one parameter which is an object containing the given parameters). 
+one parameter which is an object containing the given parameters).

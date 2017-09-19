@@ -1,11 +1,11 @@
 {
   "author": "gwTumm <timklge@wh2.tu-dresden.de> (https://github.com/gwTumm)",
-  "name": "node-teamspeak",
+  "name": "node-teamspeak-ethkat",
   "description": "TeamSpeak (R)-3-ServerQuery-Client for node.js",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "repository": {
     "type": "git",
-    "url": "git://github.com/gwTumm/node-teamspeak.git"
+    "url": "git://github.com/ethkat/node-teamspeak.git"
   },
   "main": "index.js",
   "dependencies": {"line-input-stream": ">=1.0.1"},
@@ -15,8 +15,8 @@
     "node": "*"
   },
   "bugs": {
-	"url": "https://github.com/gwTumm/node-teamspeak/issues",
-	"email": "timklge@wh2.tu-dresden.de"
+	"url": "https://github.com/ethkat/node-teamspeak/issues",
+	"email": "ethan.rosanoo@gmail.com"
   },
   "license": "Beerware",
   "readmeFilename": "README.md"
